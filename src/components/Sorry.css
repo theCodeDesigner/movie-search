@@ -1,0 +1,53 @@
+.sorry-container{
+        display: flex;
+        background-color: #fff;
+        border-radius: 20px;
+        max-width: 1200px;
+        width: 1200px;
+        height: 700px;
+        margin: 100px auto;
+}
+
+h1{
+    color: #fff;
+}
+
+.not-found-div{
+    border-radius: 20px 0 0 20px;
+    width:  500px;
+    height: 100%;
+    object-fit: contain;
+    background-color: #2f2f2f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question-mark{
+    height: 300px;
+    color: #4f4f4f;
+}
+
+.message-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 60px 0 60px ;
+    height: 100%;
+    width: 500px
+}
+
+.message-container h2{
+    font-size: 3rem;
+    color: #4f4f4f;
+    margin: 0;
+}
+
+.nomovie{
+    width: 600px;
+    margin: 30px 0 30px 0;
+}
+
+.message{
+    display: flex;
+}
